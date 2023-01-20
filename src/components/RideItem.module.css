@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+    text-align: center;
+        
+  }
+  
+  
+
+  .card {
+    display: flex;
+    background: linear-gradient(to bottom, #48cae4 0%, #0066cc 100%);
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 30px;
+    width:70vw;
+    z-index: 2;
+    margin: 10px;
+    padding: 20px;
+    align-content: space-around;
+    justify-content: space-around;
+
+  }
+  
+  .card li {
+    list-style-type: none;
+    text-align: left;
+    
+  }
+
+  .card img {
+    width: 250px;
+    border-radius: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .card img {
+      width: 80px;
+      height: 80px;
+    }
+    .container {
+      width: 100vw;
+    }
+    
+  }
+
+  
